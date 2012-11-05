@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{896E4284-AA1B-C3E8-C03E-2BBB2991448A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_5;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AICameraScript.js" />
+     <Compile Include="Assets\Scripts\AIMemoryScript.js" />
+     <Compile Include="Assets\Scripts\AIScript.js" />
+     <Compile Include="Assets\Scripts\AIScriptLevel0.js" />
+     <Compile Include="Assets\Scripts\AIScriptLevel2.js" />
+     <Compile Include="Assets\Scripts\AIScriptLevel3.js" />
+     <Compile Include="Assets\Scripts\BorderScript.js" />
+     <Compile Include="Assets\Scripts\BridgeScript.js" />
+     <Compile Include="Assets\Scripts\BridgeScriptLevel0.js" />
+     <Compile Include="Assets\Scripts\BridgeScriptLevel2.js" />
+     <Compile Include="Assets\Scripts\BridgeScriptLevel3.js" />
+     <Compile Include="Assets\Scripts\CameraScript.js" />
+     <Compile Include="Assets\Scripts\ColorBlueScript.js" />
+     <Compile Include="Assets\Scripts\ColorGreenScript.js" />
+     <Compile Include="Assets\Scripts\ColorRedScript.js" />
+     <Compile Include="Assets\Scripts\ColorlessScript.js" />
+     <Compile Include="Assets\Scripts\EntranceMoveScript.js" />
+     <Compile Include="Assets\Scripts\FountainScript.js" />
+     <Compile Include="Assets\Scripts\MakeTranslucent.js" />
+     <Compile Include="Assets\Scripts\PlayerScript.js" />
+     <Compile Include="Assets\Scripts\PolyGateScript.js" />
+     <Compile Include="Assets\Scripts\ShapeScript.js" />
+     <Compile Include="Assets\Scripts\puzzle1SolutionLevel3.js" />
+     <Compile Include="Assets\Scripts\puzzle2SolutionLevel3.js" />
+     <Compile Include="Assets\Scripts\puzzleSolution1Script.js" />
+     <Compile Include="Assets\Scripts\puzzleSolution2Script.js" />
+     <None Include="Assets\Scripts\todo.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

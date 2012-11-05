@@ -1,0 +1,35 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AIScriptLevel2.js">
+    <Files>
+      <File FileName="Assets/Scripts/AICameraScript.js" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/AIScriptLevel2.js" Line="71" Column="39" />
+      <File FileName="Assets/Scripts/puzzleSolution1Script.js" Line="28" Column="1" />
+      <File FileName="Assets/Scripts/BridgeScriptLevel2.js" Line="27" Column="45" />
+      <File FileName="Assets/Scripts/BridgeScript.js" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/AIScript.js" Line="8" Column="19" />
+      <File FileName="Assets/Scripts/BridgeScriptLevel3.js" Line="34" Column="72" />
+      <File FileName="Assets/Scripts/puzzle1SolutionLevel3.js" Line="21" Column="3" />
+      <File FileName="Assets/Scripts/puzzle2SolutionLevel3.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/AIScriptLevel3.js" Line="36" Column="15" />
+      <File FileName="Assets/Scripts/PlayerScript.js" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-UnityScript" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="AIScriptLevel2.js" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
