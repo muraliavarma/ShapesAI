@@ -51,6 +51,11 @@ function Update () {
 		transform.Rotate(0, 0, -5);
 	}
 
+	if(Input.GetKeyUp(KeyCode.U)) {
+		aiMemoryScript.resetLearning();
+		aiMemoryScript.doFlashText('Back to being a n00b');
+
+	}
 }
 
 function OnCollisionEnter(collision: Collision) {

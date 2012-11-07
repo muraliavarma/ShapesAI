@@ -32,16 +32,9 @@ function Awake() {
 
 function Start () {
 	flashText = GameObject.Find('FlashText');
-	//by default the ai knows about splitting and merging
-	SPLIT = 0;
-	MERGE = 0;
-	FOUNTAIN_OF_LIFE = 0;
-	FOUNTAIN_OF_DEATH = 0;
-
+	//by default the ai knows nothing. And I mean nothing! Except mindlessly following the moron player
+	resetLearning();
 	selectedOption = -1;
-
-	//TODO REMOVE THIS FUNCTION CALL!!!
-	//OnLevelWasLoaded(2);
 }
 
 function OnLevelWasLoaded(level: int) {
@@ -453,4 +446,11 @@ function clearOptions() {
 function doFlashText(text) {
 	flashes = 200;
 	flashText.guiText.text = text;
+}
+
+function resetLearning() {
+	SPLIT = 0;
+	MERGE = 0;
+	FOUNTAIN_OF_LIFE = 0;
+	FOUNTAIN_OF_DEATH = 0;
 }
