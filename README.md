@@ -1,7 +1,7 @@
 Shapes
 ========
 
-This is a Unity3D game where the player has to collaborate with AI to solve puzzles by merging and splitting shapes. In this game, we have implemented an ```Autonomous Companion Character``` that ```Learns From Humans```.
+This is a Unity3D game where the player has to collaborate with AI to solve puzzles by merging and splitting shapes. In this game, we have implemented an ```Autonomous Companion Character``` that ```Learns From Humans```. The game is playable at [murlax.com/shapes](http://murlax.com/shapes) (requires Unity Player for browser)
 
 The main AI file is the [AIMemoryScript.js file](https://github.com/muraliavarma/ShapesAI/blob/master/Assets/Scripts/AIMemoryScript.js). This is contained in the [Scripts folder](https://github.com/muraliavarma/ShapesAI/blob/master/Assets/Scripts) which contains all the JavaScript files for the project.
 
